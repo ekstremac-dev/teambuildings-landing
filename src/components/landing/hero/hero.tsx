@@ -28,12 +28,30 @@ export default component$(() => {
           with Fun and Engaging Customizable Activities on TeamScape
         </h2>
 
-        <form class="flex gap-2 py-4">
+        <form
+          class="flex gap-2 py-4"
+          action="https://app.us9.list-manage.com/subscribe/post?u=cb3189309ee0c8892e0c764d1&amp;id=e1016087f8&amp;f_id=00c213e1f0"
+          method="post"
+          target="_blank"
+        >
           <input
+            name="EMAIL"
+            type="email"
             class="border border-gray-400 rounded p-2"
             placeholder="Your email"
+            required
           />
-          <button class="bg-teal-700 text-white rounded p-2">Get access</button>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input
+              type="text"
+              name="b_cb3189309ee0c8892e0c764d1_e1016087f8"
+              tabIndex={-1}
+              value=""
+            />
+          </div>
+          <button type="submit" class="bg-teal-700 text-white rounded p-2">
+            Get access
+          </button>
         </form>
       </div>
 
