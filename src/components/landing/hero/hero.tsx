@@ -45,7 +45,7 @@ export default component$(() => {
             <input
               type="text"
               name="b_cb3189309ee0c8892e0c764d1_e1016087f8"
-              tabindex={-1}
+              tabIndex={-1}
               value=""
             />
           </div>
