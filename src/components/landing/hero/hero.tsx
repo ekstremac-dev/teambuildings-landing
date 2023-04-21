@@ -16,9 +16,9 @@ export default component$(() => {
   return (
     <section
       id="hero"
-      class="container mx-auto overflow-hidden flex items-center"
+      class="container px-4 mx-auto overflow-hidden flex flex-col-reverse lg:flex-row items-center justify-center gap-4"
     >
-      <div class="max-w-2xl space-y-2 px-4">
+      <div class="max-w-2xl space-y-2">
         <h1 class="text-5xl font-bold">
           Ultimate Team Building Planner{" "}
           <span class="text-3xl text-teal-700">(and Employee lover)</span>
@@ -29,7 +29,7 @@ export default component$(() => {
         </h2>
 
         <form
-          class="flex gap-2 py-4"
+          class="flex flex-wrap gap-2 py-4"
           action="https://app.us9.list-manage.com/subscribe/post?u=cb3189309ee0c8892e0c764d1&amp;id=e1016087f8&amp;f_id=00c213e1f0"
           method="post"
           target="_blank"
@@ -37,7 +37,7 @@ export default component$(() => {
           <input
             name="EMAIL"
             type="email"
-            class="border border-gray-400 rounded p-2"
+            class="border border-gray-400 rounded p-2 grow lg:grow-0"
             placeholder="Your email"
             required
           />
@@ -55,7 +55,7 @@ export default component$(() => {
         </form>
       </div>
 
-      <div class="max-h-screen grid grid-cols-3 gap-4 rounded overflow-hidden">
+      <div class="max-h-screen grid grid-cols-3 gap-2 lg:gap-4 rounded overflow-hidden">
         {images.map((src) => (
           <img src={src} class="max-h-96 max-w-xs w-full h-full object-cover" />
         ))}
