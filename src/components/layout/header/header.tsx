@@ -10,7 +10,7 @@ export default component$(() => {
   const links: LinkItem[] = [];
 
   return (
-    <header class="container mx-auto flex justify-between sticky top-0 bg-white">
+    <header class="container px-4 mx-auto flex justify-between sticky top-0 bg-white">
       <div class="py-6">
         <a href="/" title="TeamScape" class="text-2xl font-bold text-teal-700 flex gap-2">
           TeamScape
